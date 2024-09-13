@@ -1,3 +1,4 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/weirdo123234/namelesshit/main/loader.lua'),true))();
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == "i hate this script" then
         game.Players.LocalPlayer.Character.Humanoid.Health = 0;
@@ -8,7 +9,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         game.Players.LocalPLayer:Kick("Fuck you! Nameless Shit is fucking good.")
     end
 end)
-Service("StarterGui"):SetCore("SendNotification", {
+game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Nameless Shit";
     Text = "Welcome to some Nameless Shit script, let's show you around!";
     Duration = 2;
