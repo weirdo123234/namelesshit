@@ -5,7 +5,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == "this script is horrible" then
-        game.Players.LocalPLayer:Kick("Fuck you! Nameless Shit is fucking good.")
+        game.Players.LocalPlayer:Kick("Fuck you! Nameless Shit is fucking good.")
     end
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", {
