@@ -1,4 +1,3 @@
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/weirdo123234/namelesshit/main/loader.lua'),true))();
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == "i hate this script" then
         game.Players.LocalPlayer.Character.Humanoid.Health = 0;
